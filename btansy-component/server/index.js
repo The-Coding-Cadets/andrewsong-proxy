@@ -17,7 +17,7 @@ app.get('/styles', (req, res) => {
 });
 
 app.get('/images', (req, res) => {
-  res.sendFile('bundle.js');
+  res.sendFile(path.resolve('client/dist/bundle.js'));
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
