@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "react-dev": "webpack -w",
-    "start": "nodemon ./server/index.js"
+    "start": "nodemon ./server/index.js",
+    "database": "mongoimport --db productimagerepo --collection imgurls --drop --file ./database/imgurls.crud.json"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.15.0",
+    "mongoose": "^5.8.11",
     "mysql": "^2.16.0",
     "nodemon": "^1.19.2",
     "react": "^16.10.1",

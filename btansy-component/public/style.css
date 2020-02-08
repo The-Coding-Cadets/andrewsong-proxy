@@ -127,7 +127,8 @@ body {
   grid-column-end: 13;
   grid-row-start: 1;
   grid-row-end: 11;
-
+  height: 100%;
+  object-fit: cover;
   /** Alternative Syntax **/
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */

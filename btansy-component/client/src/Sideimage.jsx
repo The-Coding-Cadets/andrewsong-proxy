@@ -9,7 +9,7 @@ class SideImage extends React.Component {
   }
 
   render() {
-    let selected = '';
+    let selected = 'image ';
     if (this.props.active === this.props.name) {
       selected += 'selected';
     }

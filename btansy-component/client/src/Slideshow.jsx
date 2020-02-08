@@ -38,9 +38,9 @@ class Slideshow extends React.Component {
     var x = this.state.currentImage;
     return (
       <div>
-        <img id='modalExitButton' onClick={this.props.hideModal} src='exitModal.png' />
-        <img id='left' src='left.png' onClick={this.left} ></img>
-        <img id='right' src='right.png' onClick={this.right} ></img>
+        <img id='modalExitButton' onClick={this.props.hideModal} src='https://codecadetsphotodemo.s3-us-west-1.amazonaws.com/exitModal.png' />
+        <img id='left' src='https://codecadetsphotodemo.s3-us-west-1.amazonaws.com/left.png' onClick={this.left} ></img>
+        <img id='right' src='https://codecadetsphotodemo.s3-us-west-1.amazonaws.com/right.png' onClick={this.right} ></img>
         <img id='modalDisplay' src={this.props.images[x]} />
       </div>
     );
